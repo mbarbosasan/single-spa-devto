@@ -33,8 +33,8 @@ registerApplication({
 
 registerApplication({
   name: "@angular-mfe",
-  app: () => System.import("http://localhost:4200/main.js"),
-  activeWhen: ["/ng"]
+  app: () => System.import("@angular-mfe"),
+  activeWhen: ['/ng']
 });
 
 start({
